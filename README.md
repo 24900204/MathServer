@@ -32,6 +32,8 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+
+```
 <html>
 
 <head>
@@ -97,8 +99,10 @@ Publish the website in the given URL.
 </body>
 
 </html>
+```
 
 ## SERVER SIDE PROCESSING:
+```
 from django.shortcuts import render
 
 def powerlamp(request):
@@ -120,7 +124,7 @@ def powerlamp(request):
         print('Power=',Power)
     return render(request,'power.html',context)
 
-
+```
 
 ## HOMEPAGE:
 ![alt text](<WhatsApp Image 2025-10-24 at 14.22.00_361c59f2.jpg>)
